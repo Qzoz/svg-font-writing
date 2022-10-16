@@ -1,0 +1,9 @@
+@import './resets';
+@import './animation/animation';
+
+.output {
+	border: 1px solid grey;
+	min-height: 4rem;
+	padding: 10px 20px;
+	font-size: 90px;
+}

@@ -1,0 +1,56 @@
+svg {
+  font-size: 1em;
+}
+
+@-webkit-keyframes write {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes write {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.write svg path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation-name: write;
+          animation-name: write;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+.write svg circle {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  transform-origin: center;
+  transform: rotateZ(-75deg);
+  -webkit-animation-name: write;
+          animation-name: write;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+
+.output {
+  border: 1px solid grey;
+  min-height: 4rem;
+  padding: 10px 20px;
+  font-size: 90px;
+}/*# sourceMappingURL=styles.css.map */
